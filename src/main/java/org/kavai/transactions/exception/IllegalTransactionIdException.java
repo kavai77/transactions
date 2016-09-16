@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 /**
  * Created by Kávai on 2016.09.16..
  */
-@ResponseStatus(value= HttpStatus.BAD_REQUEST, reason="Illegal Parent Id")
+@ResponseStatus(value= HttpStatus.BAD_REQUEST, reason="Illegal Transaction Id")
 public class IllegalTransactionIdException extends RuntimeException{
 }
